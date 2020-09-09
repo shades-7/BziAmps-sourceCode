@@ -244,7 +244,7 @@ color: #808080;
         }
      .landing1{
         height: 683px;
-        width:576px;
+        width:414px;
         flex-direction: column;
         }
     .vector{
@@ -269,12 +269,11 @@ color: #808080;
         .textalign{
             display:flex;
             flex-direction: column;
-            justify-content: flex-start;
             
         }
 
         .text{
-            width:350px;
+            width:360px;
             height:212px;
         font-size: 30px;
         align-items: center;
@@ -289,7 +288,7 @@ color: #808080;
             height:46px;
             width:365px;
             margin-top: 27px;
-            margin-left: 10px;
+            margin-left: 20px;
         font-size: 20px;
         line-height: 23px;
         text-align: center;
