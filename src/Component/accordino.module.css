@@ -1,0 +1,209 @@
+
+
+.accordion{
+    display:flex;
+    justify-content: flex-start;
+    height:166px;
+    width:1920px;
+    background: #2F80ED;
+    margin-top: 22px; 
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1), 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.accordion:hover{
+    background: #232323;
+    color: #FFFFFF;
+}
+
+
+.count{
+    display: flex;
+    width:91px;
+    height:91px;
+    align-items: center;
+    justify-content:center;
+    background: #FFFFFF;
+    box-shadow: -4px -4px 15px rgba(0, 0, 0, 0.25), 4px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    margin-top:37px;
+    margin-left:60px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    color: #232323;
+}
+
+.accordion:hover .count{
+    background: #2F80ED;
+    color:#FFFFFF;
+}
+
+
+
+
+.content{
+        display:flex;
+        justify-content: flex-start;
+        align-items: center;
+        height:59px;
+        font-style: normal;
+        font-size: 50px;
+        line-height: 59px;
+        color: #FFFFFF;
+        margin-top: 54px;
+        margin-left: 69px;
+    }
+
+ .typography{
+     height: 1174px;
+     width:1920px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }   
+
+ .box1{
+    display: flex;
+    flex-direction: column;
+    height:1028px;
+    width:1768px;
+    background: #FFFFFF;
+    box-shadow: 0px -1px 6px rgba(0, 0, 0, 0.15), 1px 6px 10px rgba(0, 0, 0, 0.1), 0px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+ }
+
+ .smallbox1{
+     width:412px;
+     height:20px;
+     background: #808080;
+     border-radius: 4px;
+     margin-top: 114px;
+     margin-left: 209px;
+ }
+ .smallbox2{
+    width:772px;
+    height:20px;
+    background: #808080;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 209px;
+}
+.smallbox3{
+    width:572px;
+    height:20px;
+    background: #808080;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 209px;
+}
+.smallbox4{
+    width:675px;
+    height:20px;
+    background: #808080;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 209px;
+}
+.smallbox5{
+    width:504px;
+    height:20px;
+    background: #808080;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 209px;
+}
+.box2{
+    height:520px;
+    width:1360px;
+    background: #232323;
+border-radius: 20px; 
+margin-top: 100px;
+margin-left: 204px;
+}
+
+@media (max-width: 414px){
+    .accordion{
+        height:50px;
+        margin-top: 1px;
+        width:414px;
+    }
+    
+    .count{
+        width:31px;
+        height:31px;
+        border-radius:3.5px;
+        margin-top:10px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    
+    .content{
+            height:16px;
+            width:350px;
+            font-size: 14px;
+            line-height: 16px;
+            margin-top: 17px;
+            margin-left: 10px;
+        }
+        .typography{
+            height: 206px;
+            width:414px;
+        }
+        .box1{
+            height:228px;
+            width:340px;
+            border-radius:8px;
+         }
+         .smallbox1{
+            width:93px;
+            height:4.5px;
+            border-radius: 1px;
+            margin-top: 24px;
+            margin-left: 35px;
+        }
+        .smallbox2{
+            width:174px;
+            height:4.5px;
+            border-radius: 1px;
+            margin-top:4px;
+            margin-left: 35px;
+        }
+        .smallbox3{
+            width:129px;
+            height:4.5px;
+            border-radius: 1px;
+            margin-top:4px;
+            margin-left: 35px;
+        }
+        .smallbox4{
+            width:152px;
+            height:4.5px;
+            border-radius: 1px;
+            margin-top:4px;
+            margin-left: 35px;
+        }
+        .smallbox5{
+            width:114px;
+            height:4.5px;
+            border-radius: 1px;
+            margin-top: 4px;
+            margin-left: 35px;
+        }
+        .box2{
+            height:117px;
+            width:280px;
+        border-radius: 4.5px; 
+        margin-top: 22px;
+        margin-left: 34px;
+        }
+
+        .accordion:hover{
+            background: #2F80ED;
+            color: black;
+        }
+
+        .accordion:hover .count{
+            background: #ffffff;
+            color:black;
+        }
+}

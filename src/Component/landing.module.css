@@ -1,0 +1,353 @@
+.landing{
+    height:982px;
+    width:1920px;
+    background: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.navbar{
+    height:150px;
+    width:1920px;
+    background: #2F80ED;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1), 0px 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo{
+    width:168px;
+    height:39px;
+    background: url(../assets/Logo.png);
+    margin-left:74px; 
+}
+.toggle{
+    margin-left:200px;
+    display:none;
+}
+.toggle1{
+    height: 4px;
+    width: 28px;
+    margin-bottom: 4px;
+    background: #FFFFFF;
+    box-shadow: 0px 2.5px 4.16667px rgba(0, 0, 0, 0.1), 0px 0.833333px 2.08333px rgba(0, 0, 0, 0.2);
+    border-radius: 1.25px;
+    
+}
+
+.expertise{
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 47px;
+color:#ffffff;
+margin-left: 831px;
+display:block;
+}
+
+.pricing{
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 47px;
+color:#ffffff;
+margin-left: 110px;
+display:block;
+
+}
+
+.case{
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 47px;
+color:#ffffff;
+margin-left: 85px;
+display:block;
+}
+
+.landing1{
+    height: 832px;
+    width:1920px;
+    display: flex;
+    justify-content: flex-start;
+}
+.vector{
+    height:619px;
+    width:703.93px;
+    margin-left: 158px;
+    background:url(../assets/Vector.png);
+    margin-top: 106px;
+    
+    
+}
+
+.image{
+    height:540px;
+    width:554px;
+    background: url(../assets/Layer\ 4@0\ 1.png);
+    background-repeat: no-repeat;
+    margin-top: 110px;
+    margin-right: 149.93px;
+    margin-bottom: 51px;
+}
+.textalign{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+.text{
+    display:flex;
+    align-items: center;
+    text-align: right;
+    width:910px;
+    height:292px;
+    font-style: normal;
+font-weight: 500;
+font-size: 62px;
+line-height: 73px;
+color: #232323;
+margin-left: 74.07px;
+margin-top:202px;
+margin-right:74px;
+}
+
+.note{
+    display:flex;
+    align-items: center;
+    text-align: right;
+    height:84px;
+    width:804px;
+    margin-top: 50px;
+    margin-left: 181.07px;
+    margin-right: 73px;
+    font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+color: #808080;
+}
+
+.tabelLanding{
+    display: flex;
+    justify-content: flex-start;
+    height:1070px;
+    width:1920px;
+    background: #ffffff;
+    flex-direction: column;
+}
+
+.tableNavbar{
+    display: flex;
+    align-items: center;
+    text-align: right;
+    height: 128px;
+    width:1920px;
+    background: #2F80ED;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1), 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.tabelHeading{
+    width:376px;
+    height:54px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 54px;
+    color: #ffffff;
+    margin-left: 202px;
+}
+.tableContent{
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.tableContentAlign{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.count{
+    display: flex;
+    width:65px;
+    height:65px;
+    align-items: center;
+    justify-content:center;
+    background: #232323;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1), 0px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin-top:33px;
+    margin-left:202px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    color: #ffffff;
+}
+
+.content{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    height:47px;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 47px;
+    color: #232323;
+    margin-top: 33px;
+    margin-left: 69px;
+    
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 414px){
+ 
+    .landing{
+        height:755px;
+        width:414px;
+        
+    }
+    
+    .navbar{
+        height:72px;
+        width:414px;
+       
+    }
+    
+    .logo{
+        width:94px;
+        height:23px;
+        background: url(../assets/Logo\ \(1\).png);
+        margin-left:21px; 
+    }
+    .toggle{
+       
+        display: block;
+    }
+
+    .expertise{
+    
+    display:none;
+    }
+    
+    .pricing{
+  
+    display:none;
+    
+    }
+    .case{
+       
+        display:none;
+        }
+     .landing1{
+        height: 683px;
+        width:576px;
+        flex-direction: column;
+        }
+    .vector{
+            height:276.05px;
+            width:313.93px;
+            margin-left: 50px;
+            margin-top: 53px;
+            background: url(../assets/mobvector.png)
+            
+            
+        }
+        
+     .image{
+            height:247.07px;
+            width:240.82px;
+            margin-top: 49.06px;
+            margin-right: 0px;
+            margin-bottom: 51px;
+            background: url(../assets/mobpic.png);
+            background-repeat: no-repeat;
+        } 
+        .textalign{
+            display:flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            
+        }
+
+        .text{
+            width:350px;
+            height:212px;
+        font-size: 30px;
+        align-items: center;
+        font-weight: bold;
+        line-height: 35px;
+        margin-left: 20px;
+        margin-top:44px;
+        text-align: center;
+        }
+
+        .note{
+            height:46px;
+            width:365px;
+            margin-top: 27px;
+            margin-left: 10px;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        }
+        
+        .tabelLanding{
+            height:491px;
+            width:414px;
+        }
+        
+        .tableNavbar{
+            height: 56px;
+            width:414px;
+            
+        }
+        .tabelHeading{
+            width:170px;
+            height:23px;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 23px;
+            color: #ffffff;
+            margin-left: 20px;
+        }
+        .tableContent{
+            display:flex;
+            justify-content: flex-start;
+            flex-direction: column;
+        }
+        .count{
+            
+            width:24px;
+            height:24px;
+            border-radius:5px;
+            margin-top:20px;
+            margin-left:16px;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 19px;
+            
+        }
+        
+        .content{
+            height:16px;
+            width:321px;
+            font-size: 14px;
+            line-height: 16px;
+            margin-top: 20px;
+            margin-left: 11px;
+            
+        }    
+       
+}
+
+
+
+    
+    
+    
+
+

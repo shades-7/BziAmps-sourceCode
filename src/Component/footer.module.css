@@ -1,0 +1,226 @@
+.footer{
+    height:132px;
+    width:1920px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.home{
+    width:325px;
+    height:42px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+
+}
+.b2b{
+    width: 405px;
+    height:42px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #2F80ED;
+
+}
+.footer1{
+    display:flex;
+    flex-direction: column;
+    width:1920px;
+    height:516px;
+    background: #001735;
+    
+}
+.icon{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 89.09px;
+    margin-left: 624px;
+    height:70px;
+}
+
+.icon1{
+    width:64.72px;
+    height:48.55px;
+    background: url(../assets/Vector\ \(1\).png);
+    padding-right:60px;
+    background-repeat: no-repeat;
+}
+.icon2{
+    width:64.77px;
+    height:65px;
+    background: url(../assets/Vector\ \(2\).png);
+    padding-right:60px;
+    background-repeat: no-repeat;
+}
+.icon3{
+    width:55.78px;
+    height:56.8px;
+    background: url(../assets/Vector\ \(3\).png);
+    padding-right:60px;
+    background-repeat: no-repeat;
+}
+.icon4{
+    width:55.97px;
+    height:56.63px;
+    background: url(../assets/Vector\ \(4\).png);
+    padding-right:60px;
+    background-repeat: no-repeat;
+}
+.icon5{
+    width:63.22px;
+    height:63.98px;
+    background: url(../assets/Vector\ \(5\).png);
+    padding-right:60px;
+    background-repeat: no-repeat;
+}
+.icon6{
+    width:59.67px;
+    height:48.55px;
+    background: url(../assets/Vector\ \(6\).png);
+    padding-right:60px;
+    background-repeat: no-repeat;
+}
+.line1{
+    width:924px;
+    height:0px;
+    margin-top:56.87px;
+    margin-left: 498px;
+    opacity: 0.5;
+border: 1px solid #FFFFFF;
+}
+.text1{
+    width:1339px;
+    height:128px;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 54px;
+    margin-left: 290px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+.text2{
+    height:53px;
+    width:711px;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin-left: 604px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 414px){
+    
+    .footer{
+        height:44px;
+        width:414px;
+
+    
+    }
+    .home{
+        width:125px;
+        height:18.27px;
+        font-size: 14px;
+        line-height:16px;
+    
+    }
+    .b2b{
+        width: 165px;
+        height:18.27px;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #2F80ED;
+    
+    }
+    .footer1{
+        width:414px;
+        height:166px;
+    }
+    .icon{
+        margin-top: 20px;
+        margin-left: 120px;
+        height:30px;
+    }
+    .icon1{
+        width:14px;
+        height:11px;
+        background: url(../assets/mobyoutube1.png);
+        padding-right:13px;
+        background-repeat: no-repeat;
+    }
+    .icon2{
+        width:14px;
+        height:14px;
+        background: url(../assets/mobicon2.png);
+        padding-right:13px;
+        background-repeat: no-repeat;
+    }
+    .icon3{
+        width:12px;
+        height:13px;
+        background: url(../assets/moblinkdin.png);
+        padding-right:13px;
+        background-repeat: no-repeat;
+    }
+    .icon4{
+        width:13px;
+        height:13px;
+        background: url(../assets/mobistagram.png);
+        padding-right:13px;
+        background-repeat: no-repeat;
+    }
+    .icon5{
+        width:13px;
+        height:14px;
+        background: url(../assets/mobfacebook.png);
+        padding-right:13px;
+        background-repeat: no-repeat;
+    }
+    .icon6{
+        width:13px;
+        height:11px;
+        background: url(../assets/mobtwitter.png);
+        padding-right:13px;
+        background-repeat: no-repeat;
+    }
+    .line1{
+        width:199px;
+        margin-top:12.24px;
+        margin-left: 90px;
+    }
+    .text1{
+        width:348px;
+        height:45px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 13.4px;
+        margin-left: 14px;
+        
+    }
+
+    .text2{
+        height:18px;
+        width:244px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        margin-left: 76px;
+        margin-top: 10px;
+    }
+}
